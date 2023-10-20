@@ -1,5 +1,9 @@
 ATIVIDADE PROJETO ESTRUTURADO 11
 
+Acadêmico: Marco Aurélio Colnago Angelo
+RA: 09024720
+
+
 1 . O que é o Git?
 
 2 . O que é versionamento de software?
