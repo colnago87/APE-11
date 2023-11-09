@@ -18,6 +18,8 @@ O Git possui desempenho de trabalho excelente podendo ser realizada sua execuç�
 
 ### **4 . Quais as vantagens do Git?**
 
+Facilidade na sua utilização, as operações executadas no Git são rápidas efetuando cópias em seu repositório local. O repositório do Git é menor em relação a outras ferramentas de versionamento, também, sua capacidade de mover e adicionar arquivos é superior onde é possível utilizar comandos específicos onde será adicionado apenas arquivos com determinada extensão. Durante o desenvolvimento do projeto é possível ignorar arquivos que não se quer armazenar no repositório pois não fazem parte do código fonte. Trabalhar com ramificações (branches) para testar uma nova funcionalidade sem a necessidade de alterar o código principal. Possiblidade de ao se encontrar algum problema no código saber quando este foi introduzido a partir do commit e voltando até aquele momento para realizar a correção.
+
 ### **5 . Qual a importância da utilização do controle de versionamento no
 desenvolvimento de um software?**
 
