@@ -24,5 +24,10 @@ Facilidade na sua utilização, as operações executadas no Git são rápidas e
 
 Durante o desenvolvimento de um software de alto desempenho é uma prática adequada para ser utilizada em equipe para a movimentação mais ágil dos desenvolvedores garantindo eficiência no escalonamento da equipe responsável pelo código. Mantém um histórico completo com todas as alterações feitas ao longo do tempo por todos que contribuíram com novas funções, correção de erros e movimentação de arquivos. Usando o recurso de ramificação, vários desenvolvedores podem trabalhar no mesmo código ao mesmo tempo de forma independente sem comprometer o código principal e após concluírem, realizar a mesclagem do que foi feito com o que já tinha onde o software permite aos desenvolvedores verificarem se suas alterações não conflitam com outras.
 
-### **6 . Cite pelo menos três ferramentas de controle de versão e faça um breve
-detalhamento sobre cada uma delas.**
+### **6 . Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.**
+
+Subversion – Bastante usada em ambiente corporativo, é uma ferramenta com execução rápida em suas funcionalidades e simples de ser utilizada, podendo ser executada com conhecimentos básicos relacionados c versionamento de software.
+
+Mercurial – Desempenha com muita eficiência suas funções básicas de controle de versão, funciona muito bem com grandes equipes pois é uma ferramenta de controle de versão distribuída, um pouco mais complexa que outras, mas ainda sim de fácil aprendizado.
+
+TFS – Sigla com significado Team Foundation Server – utiliza metodologias agile possibilitando gestões em projetos utilizando SCRUM e CMMI, funciona de forma centralizada ou distribuída podendo as equipes de desenvolvimento utilizar o mesmo espaço físico ou não, também, possui integração Microsoft Office.
