@@ -20,8 +20,9 @@ O Git possui desempenho de trabalho excelente podendo ser realizada sua execuç�
 
 Facilidade na sua utilização, as operações executadas no Git são rápidas efetuando cópias em seu repositório local. O repositório do Git é menor em relação a outras ferramentas de versionamento, também, sua capacidade de mover e adicionar arquivos é superior onde é possível utilizar comandos específicos onde será adicionado apenas arquivos com determinada extensão. Durante o desenvolvimento do projeto é possível ignorar arquivos que não se quer armazenar no repositório pois não fazem parte do código fonte. Trabalhar com ramificações (branches) para testar uma nova funcionalidade sem a necessidade de alterar o código principal. Possiblidade de ao se encontrar algum problema no código saber quando este foi introduzido a partir do commit e voltando até aquele momento para realizar a correção.
 
-### **5 . Qual a importância da utilização do controle de versionamento no
-desenvolvimento de um software?**
+### **5 . Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?**
+
+Durante o desenvolvimento de um software de alto desempenho é uma prática adequada para ser utilizada em equipe para a movimentação mais ágil dos desenvolvedores garantindo eficiência no escalonamento da equipe responsável pelo código. Mantém um histórico completo com todas as alterações feitas ao longo do tempo por todos que contribuíram com novas funções, correção de erros e movimentação de arquivos. Usando o recurso de ramificação, vários desenvolvedores podem trabalhar no mesmo código ao mesmo tempo de forma independente sem comprometer o código principal e após concluírem, realizar a mesclagem do que foi feito com o que já tinha onde o software permite aos desenvolvedores verificarem se suas alterações não conflitam com outras.
 
 ### **6 . Cite pelo menos três ferramentas de controle de versão e faça um breve
 detalhamento sobre cada uma delas.**
