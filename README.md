@@ -10,6 +10,8 @@ O Git é um sistema de controle de versão distribuído, ferramenta útil para c
 
 ### **2 . O que é versionamento de software?**
 
+É uma forma de gerenciar diferentes versões de um código durante seu desenvolvimento, administrando as mudanças garantindo mais segurança em suas transições de versões. Cada etapa é inclusa novas funções no código gerando versões diferentes e com isso possibilitando o desenvolvedor, caso necessário, voltar em determinado ponto de inclusão de funções e altera-lo ou até mesmo voltar em um ponto especifico para poder aproveitar daquele momento para um novo projeto que dali para frente será totalmente diferente. Outra possiblidade é de ter várias pessoas trabalhando o mesmo tempo em um único código e ao termino sincronizando as mudanças para o código principal.
+
 ### **3 . Por que utilizar o Git como controle de versionamento?**
 
 ### **4 . Quais as vantagens do Git?**
