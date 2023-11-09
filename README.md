@@ -14,6 +14,8 @@ O Git é um sistema de controle de versão distribuído, ferramenta útil para c
 
 ### **3 . Por que utilizar o Git como controle de versionamento?**
 
+O Git possui desempenho de trabalho excelente podendo ser realizada sua execução online e offline facilitando trabalho onde existe o emprego de equipes trabalhando no mesmo código, conta com recursos poderosos de mesclagem e ramificações gerenciando as alterações com mais eficiência. Fazendo o controle de versão é possível saber o local, estado e a qualidade de um arquivo trazendo estes requisitos para o usuário se embase em qual arquivo deseja trabalhar. É possível realizar operações que se tenha que desfazer parte do trabalho e analisar o histórico do desenvolvimento com possibilidade de resgatar versões antigas do código implementando outras linhas de código.
+
 ### **4 . Quais as vantagens do Git?**
 
 ### **5 . Qual a importância da utilização do controle de versionamento no
