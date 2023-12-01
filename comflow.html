@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Atividade Projeto Estruturado 11</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="semflow.html">Comandos Sem Flow</a></li>
+			<li><a href="comflow.html">Comandos Com Flow</a></li>
+	</ul>
+
+	</nav>
+	<h1 id="titab">PRINCIPAIS COMANDOS COM FLOW PREDEFINIDO</h1>
+
+	<table>
+		<tr>
+			<th>COMANDO</th>
+			<th>FUNÇÃO</th>	
+		</tr>
+
+		<tr>
+			<td>git flow init</td>
+			<td>Iniciar o uso do git flow no reposirório atual</td>
+		</tr>
+
+		<tr>
+			<th colspan="2">FUNCIONALIDADES / FEATURES</th>
+		</tr>
+
+		<tr>
+			<td>git flow feature start MYFEATURE</td>
+			<td>Cria uma nova branch da funcionalidade específica e ja altera para ela</td>
+		</tr>
+
+		<tr>
+			<td>git flow feature finish MYFEATURE</td>
+			<td>Mescla as alterações desta branch para a principal, remove a brach da funcionalidade e retorna para a branch principal (develop)</td>
+		</tr>
+
+		<tr>
+			<td>git flow feature publish MYFEATURE</td>
+			<td>Envia a funcionalidade criada para o servidor remoto.</td>
+		</tr>
+
+		<tr>
+			<td>git flow feature pull MYFEATURE</td>
+			<td>Obtenha uma funcionalidade criada e publicada por outro usuário e que esteja em local remoto</td>
+		</tr>
+
+		<tr>
+			<th colspan="2">CRIAR UMA VERSÃO / RELEASE</th>
+		</tr>
+
+		<tr>
+			<td>git flow relase start RELEASE [BASE]</td>
+			<td>Começa uma nova versão criando um branch baseado no develop</td>
+		</tr>
+
+		<tr>
+			<td>git flow publish RELEASE</td>
+			<td>Publica o branch da versão permitindo commits de outros desenvolvedores</td>
+		</tr>
+
+		<tr>
+			<td>git flow release track RELEASE</td>
+			<td>Acompanha uma versão remota</td>
+		</tr>
+
+		<tr>
+			<td>git flow release finish RELEASE</td>
+			<td>Ao final da versão, mescla o branch da versão com o master, etiqueta com seu nome a versão criada, mescla o branch de volta no develop e remove o branch da versão</td>
+		</tr>
+
+		<tr>
+			<th colspan="2">HOTFIXES</th>
+		</tr>
+
+		<tr>
+			<td>git flow hotfix start VERSION [BASENAME]</td>
+			<td>Inicia o hotfix onde o VERSION é o nome do novo hotfix</td>
+		</tr>
+
+		<tr>
+			<td>git flow hotfix finish VERSION</td>
+			<td>Ao ser finalizado o hotfix, será mesclado na brach develop e master</td>
+		</tr>
+
+	</table>
+
+</body>
+</html>
