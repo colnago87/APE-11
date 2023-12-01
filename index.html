@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Atividade Projeto Estruturado 11</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="semflow.html">Comandos Sem Flow</a></li>
+			<li><a href="comflow.html">Comandos Com Flow</a></li>
+	</ul>
+
+	</nav>
+
+	<h1>1. Para que serve o commit e qual a melhor forma de utilizá-lo?</h1>
+	
+		<p>O comando git commit serve para capturar as mudanças realizadas no projeto e torna-las versões seguras, essas versões permanecem no repositório local e só vão para algum outro local em rede ou online com execução de outro comando. O comando commit deve ser executado após o comando add que captura todas as alterações feitas e envia para uma área de preparação (staging área), ao ser executado o commit é escrito uma mensagem de identificação para aquele “ponto” do projeto facilitando para os desenvolvedores localizar alguma alteração especifica onde é possível voltar naquele estado e fazer alguma alteração, correção ou aproveitamento do código para outros projetos.</p>
+
+	<h1>2. Qual a diferença entre commit e push?</h1>
+
+		<p>Durante o desenvolvimento de um projeto as alterações feitas no código em primeiro momento serão enviadas para uma área de preparação aguardando o momento em que serão enviadas para o repositório local, o commit faz essa tarefa de “salvar” localmente essas alterações criando pontos, devidamente identificados por uma mensagem, que podem ser consultados e eventualmente se necessário retornar o desenvolvimento a partir daquele ponto. Já o push envia essas alterações feitas e que foram salvas localmente para um repositório remoto, após a realização de um ou vários commits se o projeto possuir um repositório criado remotamente o push realizará o envio de todas a alterações onde vai manter essas em dois locais.</p>
+
+	<h1>3. O que é tag?</h1>
+
+		<p>A tag é um marcador que serve para direcionar a pontos específicos no decorrer do desenvolvimento do projeto, usada para capturar um determinado ponto e geralmente utiliza-se um marcador semântico (exemplo v1.0 ou v0.1.2). Podem ser utilizados essas marcações em conjunto com a mensagem usada nos commits, que dessa forma facilita a organização do histórico e possibilita uma agilidade na busca de pontos específicos do projeto. Existem dois tipos de tag, anotadas e leves, nas tags anotadas são armazenados metadados a mais como, nome do criador, e-mail e data, já nas tags leves, possuem apenas um nome e um ponteiro direcionado ao commit, sendo uteis para utilização de links rápidos para pontos específicos.</p>
+
+	<h1>4. O que é branch?</h1>
+
+		<p>Branch ou ramificação é separação do código onde é criado uma linha paralela independente para o desenvolvimento, também funciona como controle de origem onde a as etapas da programação são separadas em outras subdivisões. Muito útil em trabalho em grupos de desenvolvedores, ao se usar o branch cada programador desenvolve uma parte do código, novo recurso ou até mesmo correção de bugs de forma individual em um primeiro momento sem alterar o código principal, ao terminal o trabalho é feito uma mesclagem das ramificações alterando o código principal com os novos recursos ou correções onde ficara disponível para todos desenvolvedores que tiverem acesso ao código fonte.</p>
+
+	<h1>5. Como resolver possíveis conflitos no Git?</h1>
+
+		<p>Durante o desenvolvimento de projetos no git pode ocorrer alguns conflitos, um deles é quando várias ramificações estão ativas e no momento de mesclar com o código principal dois desenvolvedores fazem alterações na mesma parte, o primeiro que enviar as modificações de seu branch irá alterar o código principal, já o segundo encontrara um erro onde o git informa o conflito e informa que este não tem as informações atualizadas e pedirá para atualizar seu branch, ao ser puxado as novas informações o git mostra exatamente o conflito no código onde o segundo programador irá resolver o problema, seja excluindo a alteração do primeiro envio e alterando pela sua ou encontrando uma forma de manter as duas sem causar um novo conflito.</p>
+
+
+</body>
+</html>
